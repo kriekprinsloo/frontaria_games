@@ -4,7 +4,7 @@
 This is a collection of short text-based games written in python.
 
 ## What's Fronteria?
-Fronteria is the mythical world fulled with tech, big corporations, and the urge to get more money...
+Fronteria is the mythical world fulled with tech, big corporations, and the urge for everyone to get more money...
 
 ## So how do I play?
 
