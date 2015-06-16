@@ -1,0 +1,76 @@
+from time import sleep
+
+hp = 10
+
+print("The year is 2021" )
+sleep(5)
+print("You work for the leading tech company, The Nova Corparation." )
+sleep(4)
+print("Your assignment: steal data files from their rival company, Cole Industries.")
+sleep(4)
+print("A hexocraft drops you off at Cole Industries H.Q")
+
+
+direction1 = input("Do you want to go left or right? ")
+direction1 = direction1.lower()
+if direction1 == "right":
+    print("Ok")
+    sleep(2)
+    print("You walk through the gardens and come to a fork.")
+    sleep(3)
+    print("To your left is a door.  You cannot go right.")
+    d2 = input("Do you want to go left of right?")
+    if d2 == "left":
+        print("You quietly slip through the door.")
+        sleep(3)
+        print("To your left is a corridor, and to your right is a security station.")
+        sleep(3)
+        print("Tip: going right is bacically suicide, so you might not want to go there")
+        d2 = input("Do you want to go left or right?")
+        if d2 == "left":
+            print("The corridor is unstable! The floor collapses, and you fall in!")
+        if d2 == "right":
+            print("I warned you, but whatever.")
+            sleep(2)
+            print("The guards immediately see you, pull out their weapons,")
+            sleep(2)
+            print("AND...")
+            sleep(3)
+            print("They shoot you dead")
+if direction1 == "left":
+    print("You walk down a corridor, and come to a fork.")
+    sleep(3)
+    print("To your left is a control room.  To your right is a cafe.  You might be able to get some intel in the control room.")
+    dd2 = input("Do you want to go left or right?")
+    if dd2 == "left":
+        print("you are in the control room.")
+        sleep(2)
+        print("CONSOLE: DATA UPLOADING ONTO NOVA CORPERATION CLOUD SERVER...")
+        sleep(3)
+        print("78% DONE...")
+        sleep(3)
+        print("86% DONE...")
+        sleep(3)
+        print("93% DONE...")
+        sleep(1)
+        print("99% DONE...")
+        sleep(0.5)
+        print("UPLOAD COMPLETE.")
+        sleep(2)
+        print("Congrats! You just stole the data files for Nova, without any ressistance!")
+        sleep(3)
+        print("If you enjoyed this game be sure to look out for my next one, or follow me on github at github.com/kriekprinsloo")
+        sleep(5)
+        print("Bye!")
+        sleep(0.75)
+        
+    if dd2 == "right":
+        print("You are in the cafe.")
+        sleep(4)
+        print("A few guards see you and identify you as an intruder!")
+        sleep(2)
+        print("One of them pulls out a pistol from it's holster.")
+        sleep(4)
+        print("AND...")
+        sleep(3)
+        print("He shoots you dead")
