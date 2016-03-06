@@ -30,7 +30,7 @@ pi@raspberry ~ $ cd ~
 
 ```
 
-Now we can pull this repo (repository) from github.
+Now we can pull this repo from github this way.
 
 ```bash
 
